@@ -1,0 +1,29 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "main": "node ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackVCurtis/node-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackVCurtis/node-api/issues"
+  },
+  "homepage": "https://github.com/JackVCurtis/node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.3.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.8",
+    "request": "^2.69.0"
+  }
+}
